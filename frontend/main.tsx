@@ -1,7 +1,7 @@
 import ReactDOM from "npm:react-dom/client";
-import Home from "./Home.tsx";
+import Index from "./routes/index.tsx";
 
 const root = document.getElementById("root");
 if (root) {
-  ReactDOM.createRoot(root).render(<Home />);
+  ReactDOM.createRoot(root).render(<Index />);
 }

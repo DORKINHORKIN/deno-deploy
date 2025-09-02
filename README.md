@@ -1,7 +1,8 @@
 # Monorepo Structure
 
-- `apps/` - Application projects (e.g., web, api)
-- `packages/` - Shared libraries and utilities
+- `backend/` - Application projects (e.g., api, cms)
+- `frontend/` - Frontend application projects (e.g., index.html, main.tsx)
+- `shared/` - Shared libraries and utilities and content
 
 ## Example Structure
 

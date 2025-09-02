@@ -1,9 +1,13 @@
-import { Hono } from 'hono';
-import { postsRoute } from './routes/posts.tsx';
+import { Hono } from "hono";
+import indexRoute from "./routes/index.tsx";
+import postsRoute from './routes/posts/index.tsx';
+
 
 const app = new Hono();
 
-app.get('/', (c) => c.text('Welcome to CMS backend'));
-app.route('/posts', postsRoute);
+app.route("/", indexRoute);
+app.route("/posts/", postsRoute);
+app.route("/posts", postsRoute);
 
 export default app;
+  

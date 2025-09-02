@@ -1,6 +1,6 @@
 {
   "tasks": {
-    "dev": "deno run --watch -A ./backend/cms/deps.tsx",
+    "dev": "deno run --watch --allow-env=PAT --allow-net --allow-read ./backend/cms/deps.tsx",
     "preview": "deno run -A ./backend/cms/deps.tsx"
   },
   "imports": {
@@ -23,7 +23,7 @@
       "dom",
       "dom.iterable"
     ]
-  }
-  
+  },
+  "env": true
 
 }
