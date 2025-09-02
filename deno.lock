@@ -1,0 +1,79 @@
+{
+  "version": "5",
+  "specifiers": {
+    "jsr:@std/assert@1": "1.0.14",
+    "jsr:@std/internal@^1.0.10": "1.0.10",
+    "npm:@types/node@*": "24.2.0",
+    "npm:hono@*": "4.9.5",
+    "npm:hono@^4.9.5": "4.9.5",
+    "npm:react-dom@*": "19.1.1_react@19.1.1",
+    "npm:react@*": "19.1.1"
+  },
+  "jsr": {
+    "@std/assert@1.0.14": {
+      "integrity": "68d0d4a43b365abc927f45a9b85c639ea18a9fab96ad92281e493e4ed84abaa4",
+      "dependencies": [
+        "jsr:@std/internal"
+      ]
+    },
+    "@std/internal@1.0.10": {
+      "integrity": "e3be62ce42cab0e177c27698e5d9800122f67b766a0bea6ca4867886cbde8cf7"
+    }
+  },
+  "npm": {
+    "@types/node@24.2.0": {
+      "integrity": "sha512-3xyG3pMCq3oYCNg7/ZP+E1ooTaGB4cG8JWRsqqOYQdbWNY4zbaV0Ennrd7stjiJEFZCaybcIgpTjJWHRfBSIDw==",
+      "dependencies": [
+        "undici-types"
+      ]
+    },
+    "hono@4.9.5": {
+      "integrity": "sha512-aLAVl5/67ifNnoFVxnhR89dpmSLsgwBprw/PT671ASwUpJqmd7Ne8KPTQo37DbRZfgpHaHeZ4bPVUvbOkeedMw=="
+    },
+    "react-dom@19.1.1_react@19.1.1": {
+      "integrity": "sha512-Dlq/5LAZgF0Gaz6yiqZCf6VCcZs1ghAJyrsu84Q/GT0gV+mCxbfmKNoGRKBYMJ8IEdGPqu49YWXD02GCknEDkw==",
+      "dependencies": [
+        "react",
+        "scheduler"
+      ]
+    },
+    "react@19.1.1": {
+      "integrity": "sha512-w8nqGImo45dmMIfljjMwOGtbmC/mk4CMYhWIicdSflH91J9TyCyczcPFXJzrZ/ZXcgGRFeP6BU0BEJTw6tZdfQ=="
+    },
+    "scheduler@0.26.0": {
+      "integrity": "sha512-NlHwttCI/l5gCPR3D1nNXtWABUmBwvZpEQiD4IXSbIDq8BzLIK/7Ir5gTFSGZDUu37K5cMNp0hFtzO38sC7gWA=="
+    },
+    "undici-types@7.10.0": {
+      "integrity": "sha512-t5Fy/nfn+14LuOc2KNYg75vZqClpAiqscVvMygNnlsHBFpSXdJaYtXMcdNLpl/Qvc3P2cB3s6lOV51nqsFq4ag=="
+    }
+  },
+  "redirects": {
+    "https://esm.sh/@types/js-yaml@~3.12.10/index.d.ts": "https://esm.sh/@types/js-yaml@3.12.10/index.d.ts",
+    "https://esm.sh/@types/kind-of@~6.0.3/index.d.ts": "https://esm.sh/@types/kind-of@6.0.3/index.d.ts",
+    "https://esm.sh/@types/strip-bom-string@~1.0.2/index.d.ts": "https://esm.sh/@types/strip-bom-string@1.0.2/index.d.ts",
+    "https://esm.sh/js-yaml@^3.13.1?target=denonext": "https://esm.sh/js-yaml@3.14.1?target=denonext",
+    "https://esm.sh/kind-of@^6.0.0?target=denonext": "https://esm.sh/kind-of@6.0.3?target=denonext",
+    "https://esm.sh/kind-of@^6.0.2?target=denonext": "https://esm.sh/kind-of@6.0.3?target=denonext",
+    "https://esm.sh/section-matter@^1.0.0?target=denonext": "https://esm.sh/section-matter@1.0.0?target=denonext",
+    "https://esm.sh/strip-bom-string@^1.0.0?target=denonext": "https://esm.sh/strip-bom-string@1.0.0?target=denonext"
+  },
+  "remote": {
+    "https://esm.sh/gray-matter@4.0.3": "b6438eeb99613f401313c7626b77eb8da4391e835e6af77676b00e5e29e7afcc",
+    "https://esm.sh/gray-matter@4.0.3/denonext/gray-matter.mjs": "ac7ed867893b802a89d48e011ed0814dc98ff6e6dc883e87140a7bde27091c88",
+    "https://esm.sh/js-yaml@3.14.1/denonext/js-yaml.mjs": "3682942a59dc6c58010677689869c333dd0481ce6acb1fb2e283a2ad16e2772a",
+    "https://esm.sh/js-yaml@3.14.1?target=denonext": "ed30d0d3e8761efb43a7327208faa37fad6430a348557fca2f9b945e8dc41ab6",
+    "https://esm.sh/kind-of@6.0.3/denonext/kind-of.mjs": "538e9769a855ab06c93952c7a2abe52606f1e7ccf1c3934269659e2ca521b2dd",
+    "https://esm.sh/kind-of@6.0.3?target=denonext": "ebd2acb83a9547f58a8da1091189119b8e602938dc507a4b53d812a0b46457cc",
+    "https://esm.sh/section-matter@1.0.0/denonext/section-matter.mjs": "eba6be5bdb99f72859ebc58f5d2fab423954c865b2dd67e9c8ea76d889026201",
+    "https://esm.sh/section-matter@1.0.0?target=denonext": "685086b06ab23dbddbd5a9d06dd5055db004a1a63bcb4f5756710e46e4a764f6",
+    "https://esm.sh/strip-bom-string@1.0.0/denonext/strip-bom-string.mjs": "663a5a16955b174864cc111dd706e71d400677a7f4716542db70ae371db51ec7",
+    "https://esm.sh/strip-bom-string@1.0.0?target=denonext": "23271adb6d801e912406d57a7766525185cd5706633837d0baff45e35ec038cb"
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@std/assert@1",
+      "npm:hono@*",
+      "npm:hono@^4.9.5"
+    ]
+  }
+}
